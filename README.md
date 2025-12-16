@@ -141,20 +141,6 @@ playwright install
 
 ### 5⃣ Configure Environment Variables
 
-Create a `.env` file using the example below:
-
-```env
-BASE_URL=https://qa-waakia.example.com
-DASHBOARD_URL=https://qa-waakia.example.com/admin
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=waakia
-DB_USER=user
-DB_PASSWORD=password
-BROWSER=chromium
-HEADLESS=true
-```
-
 > ⚠ **Never commit `.env` files to GitHub**
 
 ---
@@ -247,7 +233,7 @@ Easily extendable for:
 ## Author
 
 **Adhikar Chaudhary**
-Senior Software QA Engineer / Automation Specialist
+Senior Software QA Engineer 
 GitHub: [https://github.com/Adhikar100](https://github.com/Adhikar100)
 
 ---
@@ -268,3 +254,4 @@ GitHub: [https://github.com/Adhikar100](https://github.com/Adhikar100)
 * Designed for **scalability and long‑term maintenance**
 * Suitable for **enterprise‑grade QA teams**
 * Clean, professional, and **interview‑ready automation project**
+
