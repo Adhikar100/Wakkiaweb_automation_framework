@@ -1,0 +1,6 @@
+{
+  "default_customer": {
+    "username": "testuser@example.com",
+    "password": "password123"
+  }
+}

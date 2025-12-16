@@ -1,0 +1,6 @@
+# Placeholder - add your CI pipeline here later
+# Typical steps:
+# - setup python
+# - pip install -e .
+# - playwright install --with-deps (on linux runners)
+# - pytest ...
