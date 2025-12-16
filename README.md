@@ -1,26 +1,26 @@
-# 🧪 Waakia Web Automation Framework
+# Waakia Web Automation Framework
 
 A **scalable, maintainable, end-to-end web automation testing framework** built using **Playwright + Pytest (Python)**. This framework is designed to test **complex fintech and digital service platforms** such as **Waakia / KiiBank**, where reliability, security, and consistency are critical.
 
-The framework supports **multi-application testing**, clean architecture, environment-based configuration, reusable components, and **CI/CD-friendly execution**, making it suitable for both **enterprise QA teams** and **production-grade automation projects**.
+The framework supports **multi-application testing**, clean architecture, environment-based configuration, reusable components, and **CI/CD‑friendly execution**, making it suitable for both **enterprise QA teams** and **production-grade automation projects**.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * ✅ **Playwright (Python)** for fast, stable, and modern browser automation
 * ✅ **Pytest** for structured test execution, grouping, and reporting
 * ✅ **Page Object Model (POM)** for clean, maintainable tests
-* ✅ **Multi-application support** (Admin/Dashboard & Customer apps)
-* ✅ **Environment-based configuration** using `.env`
+* ✅ **Multi‑application support** (Admin/Dashboard & Customer apps)
+* ✅ **Environment‑based configuration** using `.env`
 * ✅ **PowerShell runner scripts** for quick local execution
-* ✅ **CI/CD-ready project layout**
+* ✅ **CI/CD‑ready project layout**
 * ✅ **Reusable shared utilities and fixtures**
 * ✅ **Extensible for API and database validation**
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 WaakiaWeb_automation_framework/
@@ -66,29 +66,29 @@ WaakiaWeb_automation_framework/
 
 ---
 
-## 🧠 Framework Design Principles
+## Framework Design Principles
 
-### 1️⃣ Page Object Model (POM)
+### 1⃣ Page Object Model (POM)
 
 * Each page is represented by a dedicated class
 * UI locators and actions are encapsulated
-* Test cases remain clean, readable, and business-focused
+* Test cases remain clean, readable, and business‑focused
 
-### 2️⃣ Separation of Concerns
+### 2⃣ Separation of Concerns
 
 * **Tests** → What to test (business scenarios)
 * **Pages** → How the UI behaves
 * **Shared** → Browser setup, config, helpers
 
-### 3️⃣ Environment Safety
+### 3⃣ Environment Safety
 
-* ❌ No hard-coded credentials
+* ❌ No hard‑coded credentials
 * ✅ Secrets loaded from `.env`
 * ✅ `.env.example` provided for onboarding
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Tool           | Purpose                        |
 | -------------- | ------------------------------ |
@@ -101,9 +101,9 @@ WaakiaWeb_automation_framework/
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
-### 1️⃣ Prerequisites
+### 1⃣ Prerequisites
 
 * Python **3.10+**
 * Node.js **18+** (required by Playwright)
@@ -112,7 +112,7 @@ WaakiaWeb_automation_framework/
 
 ---
 
-### 2️⃣ Clone the Repository
+### 2⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Adhikar100/waakiaweb_automation_framework.git
@@ -121,7 +121,7 @@ cd WaakiaWeb_automation_framework
 
 ---
 
-### 3️⃣ Create & Activate Virtual Environment
+### 3⃣ Create & Activate Virtual Environment
 
 ```powershell
 python -m venv .venv
@@ -130,7 +130,7 @@ python -m venv .venv
 
 ---
 
-### 4️⃣ Install Dependencies
+### 4⃣ Install Dependencies
 
 ```powershell
 pip install -r requirements.txt
@@ -139,7 +139,7 @@ playwright install
 
 ---
 
-### 5️⃣ Configure Environment Variables
+### 5⃣ Configure Environment Variables
 
 Create a `.env` file using the example below:
 
@@ -155,11 +155,11 @@ BROWSER=chromium
 HEADLESS=true
 ```
 
-> ⚠️ **Never commit `.env` files to GitHub**
+> ⚠ **Never commit `.env` files to GitHub**
 
 ---
 
-## ▶️ Running Tests
+## Running Tests
 
 ### Run all tests
 
@@ -181,7 +181,7 @@ HEADLESS=true
 
 ---
 
-## 🧪 Running Tests via Pytest
+## Running Tests via Pytest
 
 ```powershell
 pytest
@@ -196,7 +196,7 @@ pytest -m customer
 
 ---
 
-## 📊 Reports & Artifacts
+## Reports & Artifacts
 
 * 📸 Screenshots on failure → `artifacts/`
 * 📄 Test execution reports → `reports/`
@@ -204,7 +204,7 @@ pytest -m customer
 
 ---
 
-## 🔌 Database Validation (Optional)
+## Database Validation (Optional)
 
 Validate PostgreSQL connectivity:
 
@@ -220,7 +220,7 @@ Used for:
 
 ---
 
-## 🔁 CI/CD Ready
+## CI/CD Ready
 
 The framework is structured to support:
 
@@ -236,7 +236,7 @@ Easily extendable for:
 
 ---
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 * ✅ No secrets committed to the repository
 * ✅ `.env` excluded via `.gitignore`
@@ -244,7 +244,7 @@ Easily extendable for:
 
 ---
 
-## 👤 Author
+## Author
 
 **Adhikar Chaudhary**
 Senior Software QA Engineer / Automation Specialist
@@ -252,19 +252,19 @@ GitHub: [https://github.com/Adhikar100](https://github.com/Adhikar100)
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * API automation integration
 * Allure / HTML reporting
 * Dockerized execution
-* Cross-browser parallel runs
-* Advanced test-data factory
+* Cross‑browser parallel runs
+* Advanced test‑data factory
 
 ---
 
-## ⭐ Why This Framework?
+## Why This Framework?
 
 * Built from **real fintech production experience**
-* Designed for **scalability and long-term maintenance**
-* Suitable for **enterprise-grade QA teams**
-* Clean, professional, and **interview-ready automation project**
+* Designed for **scalability and long‑term maintenance**
+* Suitable for **enterprise‑grade QA teams**
+* Clean, professional, and **interview‑ready automation project**
